@@ -1,0 +1,70 @@
+[
+  {
+    "id": "banco_001",
+    "name": "Banco Futuro",
+    "benefits": [
+      {
+        "id": "ben_101",
+        "company": "Starbucks",
+        "discount": "30%",
+        "category": "Cafetería",
+        "description": "Descuento en todas las bebidas preparadas tamaño Venti.",
+        "valid_until": "2025-12-31",
+        "valid_days": ["Lunes", "Jueves"],
+        "requirements": "Pagando con Tarjeta Black"
+      },
+      {
+        "id": "ben_102",
+        "company": "Petrobras",
+        "discount": "$200 / litro",
+        "category": "Combustible",
+        "description": "Descuento por litro en gasolina 93 y 97.",
+        "valid_until": "2025-06-30",
+        "valid_days": ["Viernes"],
+        "requirements": "Tope de descuento $15.000 al mes"
+      }
+    ]
+  },
+  {
+    "id": "banco_002",
+    "name": "Financiera Sol",
+    "benefits": [
+      {
+        "id": "ben_201",
+        "company": "Cine Hoyts",
+        "discount": "2x1",
+        "category": "Entretención",
+        "description": "2x1 en entradas 2D y 3D sala tradicional.",
+        "valid_until": "2025-12-31",
+        "valid_days": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"],
+        "requirements": "Máximo 4 entradas por día"
+      },
+      {
+        "id": "ben_202",
+        "company": "Farmacias Ahumada",
+        "discount": "20%",
+        "category": "Salud",
+        "description": "Descuento adicional en medicamentos genéricos.",
+        "valid_until": "2025-10-15",
+        "valid_days": ["Lunes"],
+        "requirements": "Exclusivo club de beneficios"
+      }
+    ]
+  },
+  {
+    "id": "banco_003",
+    "name": "SuperDigital",
+    "benefits": [
+      {
+        "id": "ben_301",
+        "company": "Uber Eats",
+        "discount": "Envío Gratis",
+        "category": "Delivery",
+        "description": "Envíos gratis en pedidos sobre $10.000.",
+        "valid_until": "2025-08-01",
+        "valid_days": ["Sábado", "Domingo"],
+        "requirements": "Ingresando código promo del mes"
+      }
+    ]
+  }
+]
