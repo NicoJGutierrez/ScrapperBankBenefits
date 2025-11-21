@@ -1,0 +1,5711 @@
+[
+  {
+    "id": "banco_001",
+    "name": "Banco de Chile",
+    "benefits": [
+      {
+        "id": "ben_001",
+        "company": "miCoca Cola.cl",
+        "discount": "30%",
+        "category": "",
+        "description": "en miCoca-Cola.cl más despacho gratis",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_002",
+        "company": "Rappi McDonald´s",
+        "discount": "30% dto adicional",
+        "category": "",
+        "description": "en McDonald´s los viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_003",
+        "company": "Cosenza",
+        "discount": "50%",
+        "category": "",
+        "description": "todos los viernes de noviembre",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_004",
+        "company": "Salones VIP Banco de Chile Lounge Internacional",
+        "discount": "Aprende com",
+        "category": "",
+        "description": "acceder a este beneficio.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_005",
+        "company": "PedidosYA",
+        "discount": "Disfruta hasta 40%",
+        "category": "",
+        "description": "todos los días con tus Tarjetas del Chile",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_006",
+        "company": "Adidas",
+        "discount": "30% dto. adicional",
+        "category": "",
+        "description": "miércoles a viernes en adidas.cl/alianza",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_007",
+        "company": "Bioparque Buinzoo",
+        "discount": "20%",
+        "category": "",
+        "description": "en entradas en compra presencial y online.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_008",
+        "company": "Violeta",
+        "discount": "40%",
+        "category": "",
+        "description": "todos los viernes de noviembre",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_009",
+        "company": "China Wok",
+        "discount": "30%",
+        "category": "",
+        "description": "viernes presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_010",
+        "company": "GeForce NOW",
+        "discount": "50%",
+        "category": "",
+        "description": "en los primeros 4 meses de suscripción",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_011",
+        "company": "Boga",
+        "discount": "40%",
+        "category": "",
+        "description": "todos los viernes de noviembre",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_012",
+        "company": "Travel SKY Plus",
+        "discount": "Nivel Platino y Puntos SKY Plus",
+        "category": "",
+        "description": "Accede a los beneficios",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_013",
+        "company": "Rappi",
+        "discount": "Hasta 25% dto adicional",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_014",
+        "company": "MARIACHER.",
+        "discount": "25%",
+        "category": "",
+        "description": "lunes presencial y online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_015",
+        "company": "FLIXBUS",
+        "discount": "25%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_016",
+        "company": "BondUP",
+        "discount": "6 meses gratis",
+        "category": "",
+        "description": "en suscripción.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_017",
+        "company": "Perutaly",
+        "discount": "40%",
+        "category": "",
+        "description": "todos viernes de noviembre",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_018",
+        "company": "Petrizzio",
+        "discount": "30%",
+        "category": "",
+        "description": "jueves y viernes en petrizzio.cl",
+        "valid_until": "",
+        "valid_days": [
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_019",
+        "company": "Cinépolis",
+        "discount": "Canjea hasta el 100%",
+        "category": "",
+        "description": "con tus Dólares-Premio",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_020",
+        "company": "Surista Punta Arenas",
+        "discount": "20%",
+        "category": "",
+        "description": "viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_021",
+        "company": "L´Occitane",
+        "discount": "20%",
+        "category": "",
+        "description": "los miércoles, jueves y viernes en compra presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_022",
+        "company": "CinePlanet",
+        "discount": "Canjea hasta el 100%",
+        "category": "",
+        "description": "con tus Dólares-Premio",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_023",
+        "company": "iO",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días en compra presencial y online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_024",
+        "company": "Gimnasios Sportlife",
+        "discount": "Hasta 50%",
+        "category": "",
+        "description": "en compras online o en sedes adheridas.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_025",
+        "company": "Merrell",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_026",
+        "company": "Poliglota",
+        "discount": "Hasta 68%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_027",
+        "company": "El Bodegón",
+        "discount": "40%",
+        "category": "",
+        "description": "todos los días de noviembre",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_028",
+        "company": "Teatro Mori",
+        "discount": "30%",
+        "category": "",
+        "description": "en obras",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_029",
+        "company": "Majestic",
+        "discount": "30%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_030",
+        "company": "La Sanguchera del Barrio",
+        "discount": "40%",
+        "category": "",
+        "description": "todos los días de noviembre",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_031",
+        "company": "Clínica Roma",
+        "discount": "Hasta 40%",
+        "category": "",
+        "description": "lunes a viernes presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_032",
+        "company": "Crocs",
+        "discount": "20%",
+        "category": "",
+        "description": "los miércoles, jueves y viernes en compra presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_033",
+        "company": "Crocs",
+        "discount": "20%",
+        "category": "",
+        "description": "los miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_034",
+        "company": "L´Occitane",
+        "discount": "20%",
+        "category": "",
+        "description": "los miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_035",
+        "company": "CONEY PARK",
+        "discount": "Paga $15.000 y juega $30.000",
+        "category": "",
+        "description": "todos los días. En tus compras presenciales",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_036",
+        "company": "VistAndes",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a domingo",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_037",
+        "company": "Transvip",
+        "discount": "15%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_038",
+        "company": "Maria La Biyux",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_039",
+        "company": "CONEY JUMP + YUKIDS",
+        "discount": "35%",
+        "category": "",
+        "description": "En los 40 minutos de juego todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_040",
+        "company": "La Bodeguita Miguel Torres",
+        "discount": "15%",
+        "category": "",
+        "description": "lunes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_041",
+        "company": "DO SUSHI",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes, martes y viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_042",
+        "company": "CAFFARENA",
+        "discount": "30%",
+        "category": "",
+        "description": "en compras online todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_043",
+        "company": "MUEBLES EL CIPRÉS",
+        "discount": "Hasta 20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_044",
+        "company": "All Play Kids Zone",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a viernes de manera presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_045",
+        "company": "Con tus Tarjetas del Chile",
+        "discount": "30%",
+        "category": "",
+        "description": "en tu mall favorito",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_046",
+        "company": "Con tus Tarjetas VISA del Chile",
+        "discount": "40%",
+        "category": "",
+        "description": "en destacados restaurantes",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_047",
+        "company": "Trattoría Rita Parque Arauco / Cenco Alto Las Condes",
+        "discount": "30%",
+        "category": "",
+        "description": "lunes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_048",
+        "company": "Cocina de Kaleta Parque Arauco",
+        "discount": "30%",
+        "category": "",
+        "description": "lunes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_049",
+        "company": "La Perla del Pacífico Parque Arauco",
+        "discount": "30%",
+        "category": "",
+        "description": "lunes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_050",
+        "company": "Puerto del Alto Cenco Alto Las Condes",
+        "discount": "30%",
+        "category": "",
+        "description": "lunes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_051",
+        "company": "Milá Cenco Alto Las Condes",
+        "discount": "30%",
+        "category": "",
+        "description": "lunes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_052",
+        "company": "Mamma Mia Parque Arauco",
+        "discount": "30%",
+        "category": "",
+        "description": "lunes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_053",
+        "company": "Barra Chalaca Cenco Alto Las Condes y Parque Arauco",
+        "discount": "30%",
+        "category": "",
+        "description": "lunes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_054",
+        "company": "Jalisco Parque Arauco",
+        "discount": "30%",
+        "category": "",
+        "description": "lunes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_055",
+        "company": "El Japonés Cenco Alto Las Condes / Cenco Portal La Dehesa",
+        "discount": "30%",
+        "category": "",
+        "description": "lunes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_056",
+        "company": "Muu Steak Cenco Alto Las Condes",
+        "discount": "30%",
+        "category": "",
+        "description": "lunes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_057",
+        "company": "Tanta Cenco Alto Las Condes",
+        "discount": "30%",
+        "category": "",
+        "description": "lunes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_058",
+        "company": "La Barra",
+        "discount": "Hasta 25% canje DP",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_059",
+        "company": "Clínica Leben",
+        "discount": "Hasta 35%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_060",
+        "company": "Multicompany",
+        "discount": "30%",
+        "category": "",
+        "description": "todos los días presencial y online.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_061",
+        "company": "Car Broker Chile",
+        "discount": "Hasta 25%",
+        "category": "",
+        "description": "en servicios presenciales",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_062",
+        "company": "Kupos.cl",
+        "discount": "30%",
+        "category": "",
+        "description": "miércoles pagando con tus Tarjetas Mastercard",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_063",
+        "company": "Cabify",
+        "discount": "50%",
+        "category": "",
+        "description": "todos los días en hasta 3 viajes al mes, pagando con tus Tarjetas Mastercard",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_064",
+        "company": "BSoul",
+        "discount": "20% dto. miércoles a viernes presencial",
+        "category": "",
+        "description": "",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_065",
+        "company": "Cine Muvix",
+        "discount": "Canjea hasta el 100%",
+        "category": "",
+        "description": "con tus Dólares-Premio",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_066",
+        "company": "QB Restaurant Bar",
+        "discount": "Hasta 30%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_067",
+        "company": "BALANCE STUDIO",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_068",
+        "company": "Clínica Dental Brelo",
+        "discount": "30%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_069",
+        "company": "AQUA FORCE",
+        "discount": "20% dto adicional",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_070",
+        "company": "IRONSIDE",
+        "discount": "10%",
+        "category": "",
+        "description": "adicional todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_071",
+        "company": "ESCUELA DE SURF PLAYA GRANDE",
+        "discount": "15%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_072",
+        "company": "SNOW FORCE",
+        "discount": "20% dto adicional",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_073",
+        "company": "Padel Mundo Sport",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_074",
+        "company": "TERRA FORCE",
+        "discount": "20%",
+        "category": "",
+        "description": "adicional. todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_075",
+        "company": "Ocarrol Rent a Car",
+        "discount": "30%",
+        "category": "",
+        "description": "en arriendos de vehículos",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_076",
+        "company": "OPTICAS SAN MARTIN",
+        "discount": "25%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_077",
+        "company": "Sunrise Studio",
+        "discount": "20%",
+        "category": "",
+        "description": "en clases todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_078",
+        "company": "Under Armour",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_079",
+        "company": "Columbia",
+        "discount": "20%",
+        "category": "",
+        "description": "los miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_080",
+        "company": "Yoga Studio Chile",
+        "discount": "Hasta 40%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_081",
+        "company": "Experiencia Pilates",
+        "discount": "20%",
+        "category": "",
+        "description": "presencial todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_082",
+        "company": "Fashion's Park",
+        "discount": "Hasta 25% dto adicional",
+        "category": "",
+        "description": "todos los días online y presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_083",
+        "company": "Preuniversitario Pedro de Valdivia",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_084",
+        "company": "Gimnasio Synergy",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_085",
+        "company": "Giro Cycle",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_086",
+        "company": "Club Deportivo Alto Los Pinos",
+        "discount": "Hasta 25%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_087",
+        "company": "CLUB DE PADEL DE LA FLORIDA",
+        "discount": "Hasta 25%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_088",
+        "company": "Pedalcity",
+        "discount": "Hasta 20%",
+        "category": "",
+        "description": "los viernes online y presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_089",
+        "company": "Porfirio",
+        "discount": "Hasta 30%",
+        "category": "",
+        "description": "martes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_090",
+        "company": "Acuario Vivamar",
+        "discount": "25%",
+        "category": "",
+        "description": "todos los días presencial y online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_091",
+        "company": "Magíster en Ingeniería Industrial UC",
+        "discount": "30%",
+        "category": "",
+        "description": "en el valor del programa.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_092",
+        "company": "Zenit Chile",
+        "discount": "",
+        "category": "",
+        "description": "Paga en 4 a 6 cuotas sin interés.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_093",
+        "company": "ZENIT",
+        "discount": "35%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_094",
+        "company": "Importclick",
+        "discount": "25%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_095",
+        "company": "Pisco Bou Legado",
+        "discount": "15%",
+        "category": "",
+        "description": "todos los días presencial y online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_096",
+        "company": "Bacinari",
+        "discount": "10% dto adicional",
+        "category": "",
+        "description": "todos los días presencial y online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_097",
+        "company": "Totto",
+        "discount": "30%",
+        "category": "",
+        "description": "todos los días presencial y online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_098",
+        "company": "ZEISS VISION CENTER",
+        "discount": "Hasta 40%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_099",
+        "company": "ALMAPIEL",
+        "discount": "20% dto adicional",
+        "category": "",
+        "description": "todos los días online y presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_100",
+        "company": "Clínica Ortodoncia Antonella Sivori",
+        "discount": "Hasta 35%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_101",
+        "company": "Preu Filadd",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_102",
+        "company": "BYC Yoga Quinchamalí",
+        "discount": "Hasta 15%",
+        "category": "",
+        "description": "en planes",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_103",
+        "company": "Las Carmelitas",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_104",
+        "company": "Lila Restaurant",
+        "discount": "20%",
+        "category": "",
+        "description": "viernes a domingo presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_105",
+        "company": "Burger vs Pizza",
+        "discount": "20%",
+        "category": "",
+        "description": "viernes, sábado y domingo",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_106",
+        "company": "CEVICHAZO 102",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes, viernes y sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_107",
+        "company": "LA MURTA",
+        "discount": "20%",
+        "category": "",
+        "description": "viernes a domingo",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_108",
+        "company": "MY HERO",
+        "discount": "20%",
+        "category": "",
+        "description": "de lunes a viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_109",
+        "company": "PARRILLA EL GALPÓN",
+        "discount": "20%",
+        "category": "",
+        "description": "viernes y sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_110",
+        "company": "TERRAANGAMOS",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a viernes presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_111",
+        "company": "Burano",
+        "discount": "10%",
+        "category": "",
+        "description": "adicional todos los días online y presencial.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_112",
+        "company": "Experiencia Domo",
+        "discount": "10%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_113",
+        "company": "CineSol",
+        "discount": "Canjea hasta el 100%",
+        "category": "",
+        "description": "con tus Dólares-Premio.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_114",
+        "company": "Cine Star",
+        "discount": "Canjea hasta el 100%",
+        "category": "",
+        "description": "con tus Dólares-Premio.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_115",
+        "company": "Cafetería Espresso Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $10.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_116",
+        "company": "Ciudadano Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $50.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_117",
+        "company": "Pizzeria Capri Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por$30.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_118",
+        "company": "Clínica Abedules",
+        "discount": "",
+        "category": "",
+        "description": "Paga en 4 a 12 cuotas sin interés.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_119",
+        "company": "RUUF",
+        "discount": "",
+        "category": "",
+        "description": "Paga hasta en 24 cuotas sin interés.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_120",
+        "company": "Solarvento",
+        "discount": "",
+        "category": "",
+        "description": "Paga en 4 a 24 cuotas sin interés.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_121",
+        "company": "Nevada Novias",
+        "discount": "",
+        "category": "",
+        "description": "Paga en 4 a 24 cuotas sin interés.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_122",
+        "company": "Sportway",
+        "discount": "",
+        "category": "",
+        "description": "Paga en 12 cuotas sin interés.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_123",
+        "company": "Tropicalia",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_124",
+        "company": "G14 Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $50.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_125",
+        "company": "KARUN",
+        "discount": "25%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_126",
+        "company": "Natural Warm",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial y online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_127",
+        "company": "The Home Studio",
+        "discount": "Hasta 50%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_128",
+        "company": "around",
+        "discount": "30% dto adicional",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_129",
+        "company": "Ma Griffe",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días en compras online y presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_130",
+        "company": "El Gran Machu Picchu",
+        "discount": "20%",
+        "category": "",
+        "description": "jueves y viernes presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_131",
+        "company": "Rent a Car S Sur",
+        "discount": "25%",
+        "category": "",
+        "description": "pagando con tus tarjetas del Banco todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_132",
+        "company": "Olivia Cuccina Italiana",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_133",
+        "company": "FUN KIDS",
+        "discount": "25%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_134",
+        "company": "FreeMet",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_135",
+        "company": "Duck House",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_136",
+        "company": "ANWO",
+        "discount": "40%",
+        "category": "",
+        "description": "todos los días en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_137",
+        "company": "EFIDENT",
+        "discount": "Hasta 50%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_138",
+        "company": "ISTANWOOL",
+        "discount": "10%",
+        "category": "",
+        "description": "adicional en compra presencial todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_139",
+        "company": "Clínica Odontológica Torrealba",
+        "discount": "Hasta 60%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_140",
+        "company": "FELTREX",
+        "discount": "Hasta 40%",
+        "category": "",
+        "description": "todos los días en tus compras presenciales",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_141",
+        "company": "Almitas Huellas de Corazón",
+        "discount": "15%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_142",
+        "company": "OASIS SPA",
+        "discount": "15%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_143",
+        "company": "Varvacoa",
+        "discount": "Hasta 20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_144",
+        "company": "MY FAMILY PETS",
+        "discount": "Hasta 15%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_145",
+        "company": "AV ODONTOLOGÍA",
+        "discount": "Hasta un 60%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_146",
+        "company": "DR. GRILL",
+        "discount": "15%",
+        "category": "",
+        "description": "en tu primera limpieza",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_147",
+        "company": "Mathland",
+        "discount": "20%",
+        "category": "",
+        "description": "en todos los planes",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_148",
+        "company": "Yambobags",
+        "discount": "25%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_149",
+        "company": "Rent a Car Mackenna",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_150",
+        "company": "Azaleia",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_151",
+        "company": "GRAVAT",
+        "discount": "30%",
+        "category": "",
+        "description": "todos los días online y presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_152",
+        "company": "Fondo de Cultura Económica",
+        "discount": "25%",
+        "category": "",
+        "description": "en compra presencial y online.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_153",
+        "company": "Nevada Novias",
+        "discount": "15%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_154",
+        "company": "CLICKEPP",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días online y presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_155",
+        "company": "ChileLentes",
+        "discount": "Hasta un 25%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_156",
+        "company": "Patio Ferretero",
+        "discount": "Hasta 20%",
+        "category": "",
+        "description": "todos los días en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_157",
+        "company": "MDF",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_158",
+        "company": "Rockford",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_159",
+        "company": "SOLESTIC",
+        "discount": "25%",
+        "category": "",
+        "description": "lunes a sábado presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_160",
+        "company": "SmellWell",
+        "discount": "20%",
+        "category": "",
+        "description": "en compras online",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_161",
+        "company": "Ópticas Sanzana",
+        "discount": "Hasta 25%",
+        "category": "",
+        "description": "en tus compras presenciales",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_162",
+        "company": "Trauko",
+        "discount": "15%",
+        "category": "",
+        "description": "todos los días en sitio web",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_163",
+        "company": "Kine Provita",
+        "discount": "Hasta 30%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_164",
+        "company": "Jansport",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_165",
+        "company": "Centro Odontológico Dr. Alvaro Peña Páez",
+        "discount": "Hasta 35%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_166",
+        "company": "Deysa Care",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_167",
+        "company": "Knog",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_168",
+        "company": "Quiero Mi Masaje",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_169",
+        "company": "Mares Medical Aesthetics",
+        "discount": "Hasta 56%",
+        "category": "",
+        "description": "en prestaciones presencial",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_170",
+        "company": "PALIKOS",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días en compra presencial y online.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_171",
+        "company": "Innova Óptica",
+        "discount": "Hasta 20%",
+        "category": "",
+        "description": "presencial",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_172",
+        "company": "Clínica Kiprosport",
+        "discount": "Hasta 70%",
+        "category": "",
+        "description": "en prestaciones presencial",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_173",
+        "company": "Terralomas",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a viernes presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_174",
+        "company": "NS AUTOMOTRIZ",
+        "discount": "15%",
+        "category": "",
+        "description": "en mantención todos los días.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_175",
+        "company": "Clínica CRL",
+        "discount": "Hasta 50%",
+        "category": "",
+        "description": "en tu primera sesión",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_176",
+        "company": "Clínica Luxsalud",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_177",
+        "company": "Clínica Agua",
+        "discount": "Hasta 40%",
+        "category": "",
+        "description": "en tratamientos presenciales todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_178",
+        "company": "Local Burger",
+        "discount": "20%",
+        "category": "",
+        "description": "viernes a domingo",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_179",
+        "company": "G32",
+        "discount": "15%",
+        "category": "",
+        "description": "todos los días.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_180",
+        "company": "ProwashGo",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a sábado online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_181",
+        "company": "ODIN Odontología integral",
+        "discount": "25%",
+        "category": "",
+        "description": "en prestaciones presenciales",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_182",
+        "company": "Club 2D",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_183",
+        "company": "LTS OFFROAD SOLUTIONS",
+        "discount": "Hasta 50%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_184",
+        "company": "Raza Inca",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_185",
+        "company": "INTRIGMA",
+        "discount": "40%",
+        "category": "",
+        "description": "de lunes a viernes presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_186",
+        "company": "PF CHANGS",
+        "discount": "20%",
+        "category": "",
+        "description": "de lunes a viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_187",
+        "company": "Bowraps",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_188",
+        "company": "Olivia Trattoría Concepción",
+        "discount": "20%",
+        "category": "",
+        "description": "viernes a lunes",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes",
+          "Sabado",
+          "Domingo",
+          "Lunes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_189",
+        "company": "RUGENDAS",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_190",
+        "company": "G14",
+        "discount": "15%",
+        "category": "",
+        "description": "todos los días.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_191",
+        "company": "Green Lab",
+        "discount": "20%",
+        "category": "",
+        "description": "jueves a domingo",
+        "valid_until": "",
+        "valid_days": [
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_192",
+        "company": "Sables Patagónicos",
+        "discount": "20%",
+        "category": "",
+        "description": "viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_193",
+        "company": "Origami",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_194",
+        "company": "SELVADO",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_195",
+        "company": "Chili's",
+        "discount": "20%",
+        "category": "",
+        "description": "de lunes a viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_196",
+        "company": "Tika",
+        "discount": "30%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_197",
+        "company": "BUKA",
+        "discount": "30%",
+        "category": "",
+        "description": "en compra online.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_198",
+        "company": "Don Teo Santiago",
+        "discount": "30%",
+        "category": "",
+        "description": "viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_199",
+        "company": "Boru Gohan",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días en delivery",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_200",
+        "company": "B BAR",
+        "discount": "20%",
+        "category": "",
+        "description": "viernes y sábado.",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_201",
+        "company": "Olivia Trattoria",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes y viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_202",
+        "company": "Viña Choapa",
+        "discount": "40%",
+        "category": "",
+        "description": "en productos seleccionados.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_203",
+        "company": "Il Tavolino Restobar",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_204",
+        "company": "Florde",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_205",
+        "company": "Viña Espaldares del Maipo",
+        "discount": "20%",
+        "category": "",
+        "description": "en compras presenciales",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_206",
+        "company": "La Estancia Grill Bar",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a viernes horario almuerzo",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_207",
+        "company": "Mr Smashed",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_208",
+        "company": "Maurice",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a viernes horario almuerzo",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_209",
+        "company": "El Nuevo Arriero",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a viernes horario almuerzo",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_210",
+        "company": "El Wagon",
+        "discount": "20%",
+        "category": "",
+        "description": "de lunes a viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_211",
+        "company": "YOYO TEA",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días en compra online.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_212",
+        "company": "Favara",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_213",
+        "company": "Restaurante Prat Hotel terrado Arturo Prat",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_214",
+        "company": "Hotel Terrado Ricks Bar Rancagua",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_215",
+        "company": "Tortas Amelia",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días en compra presencial y online.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_216",
+        "company": "Patio Echeñique",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a viernes presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_217",
+        "company": "Ancares Café",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_218",
+        "company": "La Biferia",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_219",
+        "company": "La Resistencia",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a sábado presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_220",
+        "company": "Tuto Beach",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_221",
+        "company": "Mika Herrera",
+        "discount": "10%",
+        "category": "",
+        "description": "todos los días online y presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_222",
+        "company": "Repuestos Miranda",
+        "discount": "15%",
+        "category": "",
+        "description": "todos los días.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_223",
+        "company": "Aki kb",
+        "discount": "35%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_224",
+        "company": "DR SMILE",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_225",
+        "company": "Maríabooth",
+        "discount": "15%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_226",
+        "company": "7Veinte",
+        "discount": "20%",
+        "category": "",
+        "description": "los miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_227",
+        "company": "Under Armour",
+        "discount": "20%",
+        "category": "",
+        "description": "los miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_228",
+        "company": "Merrell",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_229",
+        "company": "Bsoul",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_230",
+        "company": "Funsport",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_231",
+        "company": "Sport Maipú",
+        "discount": "Hasta 30%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_232",
+        "company": "Wfitness",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_233",
+        "company": "RESTAURANTE VIÑA SANTA CRUZ",
+        "discount": "20%",
+        "category": "",
+        "description": "de martes a domingo",
+        "valid_until": "",
+        "valid_days": [
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_234",
+        "company": "TUBSA",
+        "discount": "",
+        "category": "",
+        "description": "Paga en 4 a 18 cuotas sin interés.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_235",
+        "company": "Copec Flux",
+        "discount": "",
+        "category": "",
+        "description": "Compra tu planta solar de 6 a 24 cuotas sin interés.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_236",
+        "company": "Imared",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_237",
+        "company": "Tanaka La Dehesa Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $50.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_238",
+        "company": "Tanaka Vitacura Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $50.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_239",
+        "company": "Orbea",
+        "discount": "",
+        "category": "",
+        "description": "Paga hasta en 24 cuotas sin interés.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_240",
+        "company": "Solar Fotovoltaica",
+        "discount": "",
+        "category": "",
+        "description": "Paga en 4 a 24 cuotas sin interés.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_241",
+        "company": "SolarBosch",
+        "discount": "",
+        "category": "",
+        "description": "Paga en 4 a 24 cuotas sin interés.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_242",
+        "company": "EnelX",
+        "discount": "",
+        "category": "",
+        "description": "Paga en 13 a 24 cuotas sin interés.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_243",
+        "company": "Mountain Hardwear",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_244",
+        "company": "MCPARKING",
+        "discount": "40%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_245",
+        "company": "Keds",
+        "discount": "20%",
+        "category": "",
+        "description": "los miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_246",
+        "company": "Element",
+        "discount": "20%",
+        "category": "",
+        "description": "los miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_247",
+        "company": "LUCANO RENT A CAR",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_248",
+        "company": "Genia Beauty",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_249",
+        "company": "VISUALIZARTE",
+        "discount": "30%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_250",
+        "company": "DHouse",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_251",
+        "company": "Calpany",
+        "discount": "20%",
+        "category": "",
+        "description": "los miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_252",
+        "company": "Hush Puppies",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_253",
+        "company": "Hush Puppies Kids",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_254",
+        "company": "BURTON",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_255",
+        "company": "Billabong",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_256",
+        "company": "TRATUR",
+        "discount": "22%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_257",
+        "company": "Diagnopro",
+        "discount": "Hasta 20%",
+        "category": "",
+        "description": "todos los días en sucursal de Temuco",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_258",
+        "company": "Zapatos.cl",
+        "discount": "20%",
+        "category": "",
+        "description": "los miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_259",
+        "company": "Óptica Look",
+        "discount": "Hasta 35%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_260",
+        "company": "Billabong",
+        "discount": "20%",
+        "category": "",
+        "description": "los miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_261",
+        "company": "Mora Pavic",
+        "discount": "Hasta 50%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_262",
+        "company": "ESTACIONAMIENTO AEROPUERTO",
+        "discount": "40%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_263",
+        "company": "GyC Automotriz",
+        "discount": "20%",
+        "category": "",
+        "description": "en todos las prestaciones de servicio presencial",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_264",
+        "company": "Clínicas Odontologicas Everest",
+        "discount": "Hasta 64%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_265",
+        "company": "NINA",
+        "discount": "20%",
+        "category": "",
+        "description": "domingo a martes",
+        "valid_until": "",
+        "valid_days": [
+          "Domingo",
+          "Lunes",
+          "Martes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_266",
+        "company": "La Divina Comida",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles a viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_267",
+        "company": "Porca",
+        "discount": "20%",
+        "category": "",
+        "description": "domingo a martes",
+        "valid_until": "",
+        "valid_days": [
+          "Domingo",
+          "Lunes",
+          "Martes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_268",
+        "company": "Cantina Meraki",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_269",
+        "company": "Vietnam Discovery",
+        "discount": "20%",
+        "category": "",
+        "description": "martes a domingo",
+        "valid_until": "",
+        "valid_days": [
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_270",
+        "company": "Rally Kart",
+        "discount": "Hasta 40% en vueltas extras",
+        "category": "",
+        "description": "todos los días presencial.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_271",
+        "company": "Mercado Carozzi",
+        "discount": "Desde 20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_272",
+        "company": "Ópticas Alemanas",
+        "discount": "Hasta 35%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_273",
+        "company": "FCO Motor Services",
+        "discount": "25%",
+        "category": "",
+        "description": "todos los días presencial y online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_274",
+        "company": "AVIS® Rent a Car",
+        "discount": "30%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_275",
+        "company": "Restaurante Puerto Seco, Hotel Radisson Curicó",
+        "discount": "20%",
+        "category": "",
+        "description": "de jueves a domingo presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_276",
+        "company": "Casa Nativa",
+        "discount": "30%",
+        "category": "",
+        "description": "todos los días en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_277",
+        "company": "Columbia",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_278",
+        "company": "Mala Mía",
+        "discount": "20%",
+        "category": "",
+        "description": "martes, jueves y viernes presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Martes",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_279",
+        "company": "Clínica JIREZ",
+        "discount": "Hasta 55%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_280",
+        "company": "GIMNASIOS UPGRADE",
+        "discount": "Hasta 50%",
+        "category": "",
+        "description": "en planes en inscripción presencial",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_281",
+        "company": "Tus Odontopediatras",
+        "discount": "Hasta 50%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_282",
+        "company": "Rauka",
+        "discount": "15% dto adicional",
+        "category": "",
+        "description": "todos los días presencial y online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_283",
+        "company": "Farmex",
+        "discount": "Hasta 20%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_284",
+        "company": "Pitísimas",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_285",
+        "company": "Puppies & Kittens",
+        "discount": "Hasta 50%",
+        "category": "",
+        "description": "jueves y viernes presencial y online",
+        "valid_until": "",
+        "valid_days": [
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_286",
+        "company": "María Pompón",
+        "discount": "15% dto adicional",
+        "category": "",
+        "description": "lunes y miércoles presencial y online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Miercoles"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_287",
+        "company": "ECODISFRAZ.CL",
+        "discount": "25%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_288",
+        "company": "Spa & Wellness Dr. Roy Sothers",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial y online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_289",
+        "company": "Natura",
+        "discount": "30% dto adicional",
+        "category": "",
+        "description": "martes y miércoles presencial y online.",
+        "valid_until": "",
+        "valid_days": [
+          "Martes",
+          "Miercoles"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_290",
+        "company": "CODERHOUSE",
+        "discount": "25%",
+        "category": "",
+        "description": "adicional todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_291",
+        "company": "LA BARRA ANDALUE",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_292",
+        "company": "Mandala Food & Bar",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a sábado de 17:00 a 22:00 Hrs",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_293",
+        "company": "Veterinaria San Martin",
+        "discount": "Hasta 50%",
+        "category": "",
+        "description": "de lunes a viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_294",
+        "company": "Capogrossi Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $80.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_295",
+        "company": "YMA Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $50.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_296",
+        "company": "Majestic Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $50.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_297",
+        "company": "La Cocina de Javier Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $50.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_298",
+        "company": "Amandine Bistró Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $80.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_299",
+        "company": "La Tabla Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $40.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_300",
+        "company": "YMA Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $80.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_301",
+        "company": "Cocoa Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $50.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_302",
+        "company": "Restaurante Hotel Magnolia Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $50.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_303",
+        "company": "Zanzíbar Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $50.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_304",
+        "company": "Cocoa Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $50.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_305",
+        "company": "Inca Pecador Puerto Varas Dólares Premio",
+        "discount": "",
+        "category": "",
+        "description": "Consumo por $50.000",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_306",
+        "company": "Gaes",
+        "discount": "",
+        "category": "",
+        "description": "Paga en 4 a 24 cuotas sin interés.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_307",
+        "company": "Edify",
+        "discount": "",
+        "category": "",
+        "description": "Paga hasta 24 cuotas sin interés.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_308",
+        "company": "Be electric",
+        "discount": "",
+        "category": "",
+        "description": "Paga en 6 a 24 cuotas sin interés todos los días.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_309",
+        "company": "CINE PLANES OCÉANO",
+        "discount": "Disfruta 2x1 en entradas al cine",
+        "category": "",
+        "description": "con tu Tarjeta del Plan Océano.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_310",
+        "company": "CINE PLANES CORDILLERA",
+        "discount": "Disfruta 4X3 en entradas",
+        "category": "",
+        "description": "con tu Tarjeta del Plan Cordillera.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_311",
+        "company": "Termas Cochamó",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_312",
+        "company": "MAXÓ",
+        "discount": "20%",
+        "category": "",
+        "description": "online todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_313",
+        "company": "DELTAMOTORS",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_314",
+        "company": "ASH",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial y online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_315",
+        "company": "MOTA",
+        "discount": "25%",
+        "category": "",
+        "description": "en compras online todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_316",
+        "company": "Dropit",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días en compras online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_317",
+        "company": "Zenclinic dental",
+        "discount": "30%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_318",
+        "company": "Caktus",
+        "discount": "25%",
+        "category": "",
+        "description": "en compras online todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_319",
+        "company": "Green Glass",
+        "discount": "15%",
+        "category": "",
+        "description": "todos los días en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_320",
+        "company": "Zona Verde",
+        "discount": "Hasta 20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_321",
+        "company": "Oasi di Bellezza",
+        "discount": "40%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_322",
+        "company": "Silvestre",
+        "discount": "20%",
+        "category": "",
+        "description": "en compra online",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_323",
+        "company": "BUG ME",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días en compra online.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_324",
+        "company": "Laqu",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_325",
+        "company": "Freshwater",
+        "discount": "20%",
+        "category": "",
+        "description": "en modelo URBAN",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_326",
+        "company": "Néctar Deco",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_327",
+        "company": "PLANT ME",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial y online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_328",
+        "company": "Biobrush",
+        "discount": "25%",
+        "category": "",
+        "description": "online todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_329",
+        "company": "AC Odontología",
+        "discount": "50%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_330",
+        "company": "Clínica ESAN",
+        "discount": "Hasta 70%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_331",
+        "company": "SHOEXPRESS",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_332",
+        "company": "Hush Puppies Kids",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_333",
+        "company": "Mountain Hardwear",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_334",
+        "company": "GOOTA",
+        "discount": "20%",
+        "category": "",
+        "description": "en alimentos probióticos",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_335",
+        "company": "Azaleia",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_336",
+        "company": "Ducha Segura",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_337",
+        "company": "Guiño Óptica",
+        "discount": "30%",
+        "category": "",
+        "description": "todos los días en compra presencial.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_338",
+        "company": "MapuWeñimen",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_339",
+        "company": "Rockford",
+        "discount": "20%",
+        "category": "",
+        "description": "miércoles, jueves y viernes compra online.",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_340",
+        "company": "CLINICA ESTÉTICA MI MANTRA",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_341",
+        "company": "CAT",
+        "discount": "20%",
+        "category": "",
+        "description": "los miércoles, jueves y viernes en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_342",
+        "company": "Vita Óptica",
+        "discount": "30%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_343",
+        "company": "YALE",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_344",
+        "company": "Clínica Imet",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_345",
+        "company": "Laboratorio Bioclinic",
+        "discount": "Hasta 20%",
+        "category": "",
+        "description": "presencial.",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_346",
+        "company": "AMAI Clínica Dental",
+        "discount": "20%",
+        "category": "",
+        "description": "en compras presenciales todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_347",
+        "company": "AKALI",
+        "discount": "Hasta 40%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_348",
+        "company": "SURISTA",
+        "discount": "20%",
+        "category": "",
+        "description": "viernes, sábado y domingo",
+        "valid_until": "",
+        "valid_days": [
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_349",
+        "company": "Clínica Dental Santorini",
+        "discount": "50%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_350",
+        "company": "Buen Perro",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_351",
+        "company": "Sushi & Burger Home",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a jueves",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_352",
+        "company": "Dily",
+        "discount": "Hasta 30%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_353",
+        "company": "MY ENGLISH COACH",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_354",
+        "company": "ESTACIONAMIENTO AUTOPARK",
+        "discount": "15%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_355",
+        "company": "Restaurante BBQ",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_356",
+        "company": "Geomar",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_357",
+        "company": "LAM BURGUESA",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días en delivery y pick up.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_358",
+        "company": "Burger Home Café",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a jueves",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_359",
+        "company": "Sushi Home",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a jueves",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_360",
+        "company": "Viña Clos de Luz",
+        "discount": "30%",
+        "category": "",
+        "description": "todos los días en compra online y tours degustación.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_361",
+        "company": "New City",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_362",
+        "company": "Green Poke",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días.",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_363",
+        "company": "BIGU",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días en compra online",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_364",
+        "company": "Nosu",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_365",
+        "company": "Hangar",
+        "discount": "20%",
+        "category": "",
+        "description": "martes a viernes",
+        "valid_until": "",
+        "valid_days": [
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_366",
+        "company": "SABOR Y AROMA",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_367",
+        "company": "Peluquería Francesa",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a sábado",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_368",
+        "company": "Nuna Restaurante",
+        "discount": "15%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_369",
+        "company": "Taringa",
+        "discount": "20%",
+        "category": "",
+        "description": "todos los días",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      },
+      {
+        "id": "ben_370",
+        "company": "Sense",
+        "discount": "30%",
+        "category": "",
+        "description": "en sitio web",
+        "valid_until": "",
+        "valid_days": [],
+        "requirements": ""
+      },
+      {
+        "id": "ben_371",
+        "company": "CARAMAGNOLA",
+        "discount": "20%",
+        "category": "",
+        "description": "lunes a domingo presencial",
+        "valid_until": "",
+        "valid_days": [
+          "Lunes",
+          "Martes",
+          "Miercoles",
+          "Jueves",
+          "Viernes",
+          "Sabado",
+          "Domingo"
+        ],
+        "requirements": ""
+      }
+    ]
+  }
+]
