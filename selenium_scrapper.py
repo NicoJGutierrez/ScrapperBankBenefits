@@ -40,7 +40,7 @@ class BankParser:
     def _parse_benefit(self, index: int, it: Dict[str, str]) -> Dict:
         """Generador simple de benefit. Subclases pueden sobreescribirlo."""
         company = it.get("title", "").strip()
-        discount = it.get("discount", "").strip()
+        discount = it.get("discount", "").strip().strip(" dcto.")
         extra = it.get("extra", "").strip()
 
         # extra: usarlo como descripción y extraer días si aparecen
@@ -68,25 +68,45 @@ class BankChileParser(BankParser):
 
 def extract_weekdays(text: str) -> List[str]:
     text_l = (text or "").lower()
-    # lista simple de días en español
-    dias = [
-        "lunes",
-        "martes",
-        "miércoles",
-        "miercoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "sabado",
-        "domingo",
-    ]
-    encontrados = []
-    for d in dias:
-        if re.search(r"\b" + re.escape(d) + r"\b", text_l):
-            # normalizar acentos
-            d_norm = d.replace("á", "a").replace("é", "e").replace("í", "i").replace("ó", "o").replace("ú", "u")
-            encontrados.append(d_norm.capitalize())
-    return encontrados
+    # normalizar acentos para facilitar matching
+    norm = text_l.replace("á", "a").replace("é", "e").replace(
+        "í", "i").replace("ó", "o").replace("ú", "u")
+
+    # orden fijo de días para poder expandir rangos
+    days_order = ["lunes", "martes", "miercoles",
+                  "jueves", "viernes", "sabado", "domingo"]
+
+    added: List[str] = []
+
+    # Si aparece "todos los dias" o variantes, devolver toda la semana
+    if re.search(r"\btodos(?: los)? dias?\b", norm):
+        return [d.capitalize() for d in days_order]
+
+    # detectar rangos: "lunes a viernes", "martes al sabado", "lunes - viernes"
+    range_pattern = re.compile(
+        r"\b(" + "|".join(days_order) + r")\s*(?:a|al|[-–—])\s*(" + "|".join(days_order) + r")\b")
+    for m in range_pattern.finditer(norm):
+        start = m.group(1)
+        end = m.group(2)
+        i = days_order.index(start)
+        j = days_order.index(end)
+        k = i
+        # incluir hasta que lleguemos a j (soporta wrap-around)
+        while True:
+            day = days_order[k]
+            if day not in added:
+                added.append(day)
+            if k == j:
+                break
+            k = (k + 1) % len(days_order)
+
+    # detectar días sueltos que no estén ya en added
+    for d in days_order:
+        if re.search(r"\b" + re.escape(d) + r"\b", norm) and d not in added:
+            added.append(d)
+
+    # devolver con primera letra mayúscula y sin acentos (consistente con el resto)
+    return [d.capitalize() for d in added]
 
 
 def scrape_with_parser(parser: BankParser, headless: bool = False) -> Dict:
@@ -137,15 +157,20 @@ def main():
         # aquí puede agregarse más bancos, por ejemplo: 'banco_x': BancoXParser
     }
 
-    ap = argparse.ArgumentParser(description="Scrapper de beneficios con parsers por banco")
-    ap.add_argument("--bank", default="banco_de_chile", help="Identificador del banco (parser)")
-    ap.add_argument("--headless", action="store_true", help="Ejecutar Chrome en headless")
-    ap.add_argument("--out", default="output.json", help="Archivo de salida JSON")
+    ap = argparse.ArgumentParser(
+        description="Scrapper de beneficios con parsers por banco")
+    ap.add_argument("--bank", default="banco_de_chile",
+                    help="Identificador del banco (parser)")
+    ap.add_argument("--headless", action="store_true",
+                    help="Ejecutar Chrome en headless")
+    ap.add_argument("--out", default="output.json",
+                    help="Archivo de salida JSON")
     args = ap.parse_args()
 
     bank_key = args.bank
     if bank_key not in parser_map:
-        print(f"Banco '{bank_key}' no soportado. Bancos disponibles: {', '.join(parser_map.keys())}")
+        print(
+            f"Banco '{bank_key}' no soportado. Bancos disponibles: {', '.join(parser_map.keys())}")
         return
 
     parser_cls = parser_map[bank_key]
