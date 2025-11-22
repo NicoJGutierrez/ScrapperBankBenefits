@@ -30,6 +30,7 @@ class BankParser:
     selector_extra: Optional[str] = None
     bank_url: Optional[str] = None
     scroller: bool = False
+    nextpage: Optional[str] = None
 
     def __init__(self):
         pass
@@ -61,11 +62,11 @@ class BankFalabellaParser(BankParser):
 class BankSantanderParser(BankParser):
     bank_id = "banco_003"
     bank_name = "Banco Santander"
-    selector_title = ".fw-bold f-large"
-    selector_discount = ".text-primary-mediumgrey f-small fw-normal mb-12"
-    bank_url = "https://www.santander.cl/personas/beneficios"
+    selector_title = ".fw-bold.f-large"
+    selector_discount = ".text-primary-mediumgrey.f-small.fw-normal.mb-12"
+    bank_url = "https://www.santander.cl/beneficios"
     scroller = False
-    nextpage = ".text-primary-santander str-chevron-right f-20"
+    nextpage = ".text-primary-santander.str-chevron-right.f-20"
 
 
 def scrape_with_parser(parser: BankParser, headless: bool = False) -> Tuple[str, List[Dict[str, str]]]:
@@ -104,23 +105,93 @@ def scrape_with_parser(parser: BankParser, headless: bool = False) -> Tuple[str,
         scroll_to_bottom(driver)
         time.sleep(1)
 
+    # Mostrar componentes adicionales en Banco Santander si existe el botón
+    try:
+        # Selector de botón que expande/filtra ofertas en Santander
+        if parser.bank_id == "banco_003":
+            try:
+                time.sleep(1)
+                botones = driver.find_elements(
+                    by=By.CSS_SELECTOR, value=".necesidad-icon.str-offer-discount")
+            except Exception:
+                botones = []
+
+            for b in botones:
+                try:
+                    if b.is_displayed() and b.is_enabled():
+                        b.click()
+                        # dar tiempo a que se muestren los componentes
+                        print(
+                            "Se encontraron y clicaron botones de filtro en Santander.")
+                        time.sleep(1)
+                        break
+                except Exception:
+                    continue
+    except Exception:
+        # No bloquear si algo falla en el intento de click
+        pass
+
     def _get_texts(selector: Optional[str]):
         if not selector:
+            print("Selector no definido.")
             return []
         els = driver.find_elements(by=By.CSS_SELECTOR, value=selector)
         return [e.text.strip() for e in els]
 
-    titles = _get_texts(parser.selector_title)
-    discounts = _get_texts(parser.selector_discount)
-    extras = _get_texts(parser.selector_extra)
-
     items = []
-    for t, d, e in zip_longest(titles, discounts, extras, fillvalue=None):
-        items.append({
-            "title": t or "",
-            "discount": d or "",
-            "extra": e or "",
-        })
+    print("Iniciando recolección de ítems...")
+
+    # Recolectar items en la(s) página(s). Si existe `parser.nextpage`,
+    # intentar hacer click y seguir recolectando hasta que no haya más.
+    while True:
+        titles = _get_texts(parser.selector_title)
+        discounts = _get_texts(parser.selector_discount)
+        extras = _get_texts(parser.selector_extra)
+
+        for t, d, e in zip_longest(titles, discounts, extras, fillvalue=None):
+            items.append({
+                "title": t or "",
+                "discount": d or "",
+                "extra": e or "",
+            })
+
+        # Si no hay selector para página siguiente, salir del bucle.
+        if not parser.nextpage:
+            print("No hay selector de página siguiente; terminando.")
+            break
+
+        # Buscar un elemento clickable que represente 'next page'.
+        try:
+            next_elems = driver.find_elements(
+                by=By.CSS_SELECTOR, value=parser.nextpage)
+        except Exception:
+            break
+
+        next_elem = None
+        for el in next_elems:
+            try:
+                if el.is_displayed() and el.is_enabled():
+                    next_elem = el
+                    break
+            except Exception:
+                # Si el elemento está stale o lanza excepción, ignorarlo
+                continue
+
+        if not next_elem:
+            break
+
+        # Intentar clicar y esperar la carga de la nueva página.
+        try:
+            next_elem.click()
+            time.sleep(2)
+            if scroller:
+                scroll_to_bottom(driver)
+                time.sleep(1)
+            # continuar el bucle y recolectar de la nueva página
+            continue
+        except Exception:
+            # Si el click falla por alguna razón, terminar la iteración
+            break
 
     driver.quit()
 
@@ -130,8 +201,7 @@ def scrape_with_parser(parser: BankParser, headless: bool = False) -> Tuple[str,
 
 def main():
     parser_map = {
-        "banco_de_chile": BankChileParser,
-        "banco_falabella": BankFalabellaParser,
+        "banco_santander": BankSantanderParser
     }
 
     ap = argparse.ArgumentParser(
