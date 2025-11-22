@@ -1,3 +1,8 @@
+"""
+Scrapper central: itera por los parsers registrados y guarda un JSON
+por banco en el directorio de salida.
+"""
+
 from selenium import webdriver
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
@@ -7,56 +12,31 @@ import time
 from itertools import zip_longest
 import argparse
 import json
-import re
-from typing import List, Dict, Optional
+import os
+from typing import List, Dict, Optional, Tuple
 
 
 class BankParser:
-    """Base parser class. Subclases deben definir selectores y parsear textos."""
+    """Base parser class. Subclases deben definir selectores y parsear textos.
+
+    Nota: la extracción fina (regex, días válidos, normalización) se delega
+    a `extractor.py`.
+    """
 
     bank_id = "banco_000"
     bank_name = "Generic Bank"
-    # selectores CSS para las partes que queremos extraer
     selector_title: Optional[str] = None
     selector_discount: Optional[str] = None
     selector_extra: Optional[str] = None
     bank_url: Optional[str] = None
+    scroller: bool = False
 
     def __init__(self):
         pass
-
-    def parse_items(self, items: List[Dict[str, str]]) -> Dict:
-        """Recibe lista de dicts con keys 'title','discount','extra' y devuelve dict del banco."""
-        benefits = []
-        for i, it in enumerate(items, start=1):
-            ben = self._parse_benefit(i, it)
-            benefits.append(ben)
-
-        return {
-            "id": self.bank_id,
-            "name": self.bank_name,
-            "benefits": benefits,
-        }
-
-    def _parse_benefit(self, index: int, it: Dict[str, str]) -> Dict:
-        """Generador simple de benefit. Subclases pueden sobreescribirlo."""
-        company = it.get("title", "").strip()
-        discount = it.get("discount", "").strip().strip(" dcto.")
-        extra = it.get("extra", "").strip()
-
-        # extra: usarlo como descripción y extraer días si aparecen
-        valid_days = extract_weekdays(extra)
-
-        return {
-            "id": f"ben_{index:03d}",
-            "company": company,
-            "discount": discount,
-            "category": "",
-            "description": extra,
-            "valid_until": "",
-            "valid_days": valid_days,
-            "requirements": "",
-        }
+    # Nota: se ha eliminado el parseo específico por beneficio.
+    # Ahora el scrapper devuelve el `bank_id` y la lista de atributos
+    # recogidos por cada beneficio (crudos). El procesamiento y normalización
+    # se delega a `extractor.py`.
 
 
 class BankChileParser(BankParser):
@@ -75,91 +55,55 @@ class BankFalabellaParser(BankParser):
     selector_discount = ".NewCardBenefits_text-uppercase__DRpVQ"
     selector_extra = ".NewCardBenefits_days__XZpWE"
     bank_url = "https://www.bancofalabella.cl/descuentos/todos"
+    scroller = True
 
 
-def extract_weekdays(text: str) -> List[str]:
-    text_l = (text or "").lower()
-    # normalizar acentos para facilitar matching
-    norm = text_l.replace("á", "a").replace("é", "e").replace(
-        "í", "i").replace("ó", "o").replace("ú", "u")
-
-    # orden fijo de días para poder expandir rangos
-    days_order = ["lunes", "martes", "miercoles",
-                  "jueves", "viernes", "sabado", "domingo"]
-
-    added: List[str] = []
-
-    # Si aparece "todos los dias" o variantes, devolver toda la semana
-    if re.search(r"\btodos(?: los)? dias?\b", norm):
-        return [d.capitalize() for d in days_order]
-
-    # detectar rangos: "lunes a viernes", "martes al sabado", "lunes - viernes"
-    range_pattern = re.compile(
-        r"\b(" + "|".join(days_order) + r")\s*(?:a|al|[-–—])\s*(" + "|".join(days_order) + r")\b")
-    for m in range_pattern.finditer(norm):
-        start = m.group(1)
-        end = m.group(2)
-        i = days_order.index(start)
-        j = days_order.index(end)
-        k = i
-        # incluir hasta que lleguemos a j (soporta wrap-around)
-        while True:
-            day = days_order[k]
-            if day not in added:
-                added.append(day)
-            if k == j:
-                break
-            k = (k + 1) % len(days_order)
-
-    # detectar días sueltos que no estén ya en added
-    for d in days_order:
-        if re.search(r"\b" + re.escape(d) + r"\b", norm) and d not in added:
-            added.append(d)
-
-    # devolver con primera letra mayúscula y sin acentos (consistente con el resto)
-    return [d.capitalize() for d in added]
+class BankSantanderParser(BankParser):
+    bank_id = "banco_003"
+    bank_name = "Banco Santander"
+    selector_title = ".fw-bold f-large"
+    selector_discount = ".text-primary-mediumgrey f-small fw-normal mb-12"
+    bank_url = "https://www.santander.cl/personas/beneficios"
+    scroller = False
+    nextpage = ".text-primary-santander str-chevron-right f-20"
 
 
-def scrape_with_parser(parser: BankParser, headless: bool = False) -> Dict:
+def scrape_with_parser(parser: BankParser, headless: bool = False) -> Tuple[str, List[Dict[str, str]]]:
     service = Service(ChromeDriverManager().install())
     options = webdriver.ChromeOptions()
+    scroller = parser.scroller
     if headless:
         options.add_argument("--headless=new")
 
     driver = Chrome(service=service, options=options)
 
-    # Si el parser tiene una URL definida, la usamos; de lo contrario, usamos about:blank
-    if parser.bank_url:
-        url = parser.bank_url
-    else:
-        url = "about:blank"
-
+    url = parser.bank_url or "about:blank"
     driver.get(url)
-    # esperar un poco a que la página comience a cargarse
     time.sleep(2)
 
-    # scroll hasta abajo para forzar carga dinámica (infinite scroll / lazy load)
     def scroll_to_bottom(drv, pause: float = 1.0, max_scrolls: int = 30):
         try:
-            last_height = drv.execute_script("return document.body.scrollHeight")
+            last_height = drv.execute_script(
+                "return document.body.scrollHeight")
         except Exception:
             return
         for _ in range(max_scrolls):
-            drv.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            drv.execute_script(
+                "window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(pause)
             try:
-                new_height = drv.execute_script("return document.body.scrollHeight")
+                new_height = drv.execute_script(
+                    "return document.body.scrollHeight")
             except Exception:
                 break
             if new_height == last_height:
                 break
             last_height = new_height
 
-    scroll_to_bottom(driver)
-    # un pequeño retraso final para estabilizar contenidos
-    time.sleep(1)
+    if scroller:
+        scroll_to_bottom(driver)
+        time.sleep(1)
 
-    # recolectar textos usando los selectores del parser (si existen)
     def _get_texts(selector: Optional[str]):
         if not selector:
             return []
@@ -170,7 +114,6 @@ def scrape_with_parser(parser: BankParser, headless: bool = False) -> Dict:
     discounts = _get_texts(parser.selector_discount)
     extras = _get_texts(parser.selector_extra)
 
-    # zip_longest para emparejar
     items = []
     for t, d, e in zip_longest(titles, discounts, extras, fillvalue=None):
         items.append({
@@ -181,43 +124,47 @@ def scrape_with_parser(parser: BankParser, headless: bool = False) -> Dict:
 
     driver.quit()
 
-    return parser.parse_items(items)
+    # Devolver el id del banco y la lista cruda de items recogidos.
+    return parser.bank_id, items
 
 
 def main():
     parser_map = {
         "banco_de_chile": BankChileParser,
         "banco_falabella": BankFalabellaParser,
-        # aquí puede agregarse más bancos, por ejemplo: 'banco_x': BancoXParser
     }
 
     ap = argparse.ArgumentParser(
-        description="Scrapper de beneficios con parsers por banco")
-    ap.add_argument("--bank", default="banco_falabella",
-                    help="Identificador del banco (parser)")
+        description="Scrapper: itera parsers y guarda JSON por banco")
+    ap.add_argument("--banks", default="all",
+                    help="Comma-separated bank keys to scrape or 'all' (default: all)")
     ap.add_argument("--headless", action="store_true",
                     help="Ejecutar Chrome en headless")
-    ap.add_argument("--out", default="output.json",
-                    help="Archivo de salida JSON")
+    ap.add_argument("--out-dir", default=".",
+                    help="Directorio de salida para JSON por banco")
     args = ap.parse_args()
 
-    bank_key = args.bank
-    if bank_key not in parser_map:
-        print(
-            f"Banco '{bank_key}' no soportado. Bancos disponibles: {', '.join(parser_map.keys())}")
-        return
+    requested = [b.strip() for b in args.banks.split(
+        ",")] if args.banks != "all" else list(parser_map.keys())
 
-    parser_cls = parser_map[bank_key]
-    parser = parser_cls()
+    os.makedirs(args.out_dir, exist_ok=True)
 
-    result = scrape_with_parser(parser, headless=args.headless)
+    for bank_key in requested:
+        if bank_key not in parser_map:
+            print(f"Aviso: '{bank_key}' no soportado. Omitiendo.")
+            continue
+        parser_cls = parser_map[bank_key]
+        parser = parser_cls()
+        print(f"Scrappeando {bank_key} ({parser.bank_name})...")
+        bank_id, items = scrape_with_parser(parser, headless=args.headless)
 
-    # Guardar como lista de bancos para mantener compatibilidad con formato.txt
-    output = [result]
-    with open(args.out, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
+        out_path = os.path.join(args.out_dir, f"{bank_key}.json")
+        # Guardar una lista con un solo banco: id y lista cruda de items
+        out_obj = {"id": bank_id, "items": items}
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump([out_obj], f, ensure_ascii=False, indent=2)
 
-    print(f"Salida guardada en {args.out}")
+        print(f"Guardado: {out_path}")
 
 
 if __name__ == "__main__":
