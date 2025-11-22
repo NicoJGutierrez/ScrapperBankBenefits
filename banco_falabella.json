@@ -1,0 +1,967 @@
+[
+  {
+    "id": "banco_002",
+    "items": [
+      {
+        "title": "Descuento en KFC",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Wendy's",
+        "discount": "40%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en China Wok",
+        "discount": "40%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en Just Burger",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Cashback con Bipay",
+        "discount": "50%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en La Barra",
+        "discount": "20%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en McDonald's",
+        "discount": "40%",
+        "extra": "Lunes a Jueves"
+      },
+      {
+        "title": "Descuento en Doggis",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Juan Maestro",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Tommy Beans",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Barrio Chick'en",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Lovdo",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Papa John's",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Pedro, Juan & Diego",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Dunkin'",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Bianco Latte",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en chocolatería Le Vice",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Boost",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Mr. Pretzels",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Yogen Fruz",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Pollo Stop",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en chocolatería Leonidas",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Fuku Mochi",
+        "discount": "40%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Tarragona",
+        "discount": "40%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en Peaky Nuts",
+        "discount": "40%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en Juan Valdez",
+        "discount": "40%",
+        "extra": "Viernes"
+      },
+      {
+        "title": "Descuento en Restaurante Sicily",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Restuarante Mamut",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Berlín Doner Kebab",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuentos en Restaurante Paris Texas",
+        "discount": "40%",
+        "extra": "Lunes a Jueves"
+      },
+      {
+        "title": "Descuento en Restaurante Badass Parque Arauco",
+        "discount": "40%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Restaurante Vendetta",
+        "discount": "40%",
+        "extra": "Lunes a Jueves"
+      },
+      {
+        "title": "Descuento en Restaurante Tanta",
+        "discount": "40%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Restaurante Kento Gourmet",
+        "discount": "40%",
+        "extra": "Lunes y Martes"
+      },
+      {
+        "title": "Descuento en Restaurante Cabrera al Paso",
+        "discount": "40%",
+        "extra": "Lunes a Viernes"
+      },
+      {
+        "title": "Descuento en Restaurante El Japonés",
+        "discount": "40%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Restaurante Barra Chalaca",
+        "discount": "40%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Restaurante Danés",
+        "discount": "40%",
+        "extra": "Lunes y Miércoles"
+      },
+      {
+        "title": "Descuento en Restaurante La Sanguchera del Barrio",
+        "discount": "40%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Restaurante Kairos Garden",
+        "discount": "40%",
+        "extra": "Lunes y Martes"
+      },
+      {
+        "title": "Descuento en Restaurante La Piazza",
+        "discount": "40%",
+        "extra": "Lunes a Sábado"
+      },
+      {
+        "title": "Descuento en Restaurante Take a Wok",
+        "discount": "40%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Restaurante La Patrona",
+        "discount": "40%",
+        "extra": "Lunes a Jueves"
+      },
+      {
+        "title": "Descuento en Restaurante Vapiano",
+        "discount": "40%",
+        "extra": "Vi-Sá-Do-Lu-Mi"
+      },
+      {
+        "title": "Descuento en Restaurante Ekeko",
+        "discount": "40%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Restaurante Milá",
+        "discount": "40%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Restaurante Muu Grill",
+        "discount": "40%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Restaurante Frida Kahlo",
+        "discount": "40%",
+        "extra": "Lunes a Viernes"
+      },
+      {
+        "title": "Descuento en Restaurante Mamma Mía",
+        "discount": "40%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Restaurante Jalisco",
+        "discount": "40%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Restaurante La Maestranza",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Restaurante Kechua",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Restaurante Pulmay",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Restaurante Krossbar",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Restaurante Zanzíbar",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Restaurante La Tabla",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Restaurante Bistro Cascade",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Bar Santiago",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Restaurante Nelí",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Restaurante La Santoría",
+        "discount": "40%",
+        "extra": "Mi-Ju-Do"
+      },
+      {
+        "title": "Descuento en Restaurante Mesón del Marinero",
+        "discount": "40%",
+        "extra": "Miércoles a Sábado"
+      },
+      {
+        "title": "Descuento en Restaurante Citadelle",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Restaurante Dmng Nikkei",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Restaurante Nomade Nikkei",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Restaurante Forá",
+        "discount": "40%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en Restaurante La Fabbrica",
+        "discount": "40%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en Restaurante Al Pesto",
+        "discount": "40%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en Restaurante Tropicalia",
+        "discount": "40%",
+        "extra": "Viernes"
+      },
+      {
+        "title": "Descuento en Taringa",
+        "discount": "40%",
+        "extra": "Hoy"
+      },
+      {
+        "title": "Descuento en Restaurante Sakura",
+        "discount": "40%",
+        "extra": "Hoy"
+      },
+      {
+        "title": "Descuento en Restaurante Siete Cortes Open Kennedy",
+        "discount": "40%",
+        "extra": "Miércoles a Sábado"
+      },
+      {
+        "title": "Descuento en Restaurante Kalea Poke",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Restaurante Tasty Mary",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Restaurante Sushi & Burger Home",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Restaurante Sushi Home",
+        "discount": "40%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en Restaurante San Marino Valparaíso",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Nikara Sushi",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Da Salvatore Trattoria & Pizzeria",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Restaurante Comedor Pelícano",
+        "discount": "40%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en Restaurante Bocas del mar",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Restaurante Boreal Bar",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Restaurante Starfries",
+        "discount": "40%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en Restaurante Fuente Machalí",
+        "discount": "40%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en Restaurante La Hacienda Machalí",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Marvento de Olas de Matanzas",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Restaurante Andiamo María",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Brasas Restaurante",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Restaurante La Fabrica",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Restaurante Terralomas",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Restaurante Augusta Bar",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Restaurante Mamba Negra",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Restaurante Libre Salvaje",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Restaurante Terraangamos",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuentos en Cervecería Kunstmann",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Restaurante Cervecería Kunstmann",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Fratello Trattoría",
+        "discount": "40%",
+        "extra": "Viernes"
+      },
+      {
+        "title": "Descuento en Restaurante Martina Lounge Bar",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Restaurante Matureo Bar",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Lebol Restobar",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Restaurante Esquina Tropera",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuentos en Restaurantes",
+        "discount": "20%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Restaurante Naoki",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Skin Fit presencial",
+        "discount": "40%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Restaurante Dagan",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Flores de Ocoa",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Restaurante Shi-Nuá",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en AM Dulcería",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Restaurante Casaluz",
+        "discount": "40%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en La Pizka",
+        "discount": "40%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en Restaurante Ceiba",
+        "discount": "40%",
+        "extra": "Viernes"
+      },
+      {
+        "title": "Descuento en Restaurante Sabor y Aroma",
+        "discount": "40%",
+        "extra": "Hoy"
+      },
+      {
+        "title": "Descuentos en Volka",
+        "discount": "40%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Beneficio en Educación",
+        "discount": "10 CUOTAS",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Beneficio para Contribuciones",
+        "discount": "3 CUOTAS",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Primeclass Pacífico",
+        "discount": "GRATIS",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Ingreso en Pacific Club",
+        "discount": "DOBLES",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Envío gratis en Falabella.com",
+        "discount": "GRATIS",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Estacionamiento en Mallplaza",
+        "discount": "GRATIS",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "2 Estacionamientos gratis al mes en Mallplaza",
+        "discount": "GRATIS",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en traslado al aeropuerto",
+        "discount": "50%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Catálogo CMR Puntos Tottus",
+        "discount": "1.000",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Tottus",
+        "discount": "6%",
+        "extra": "Lunes"
+      },
+      {
+        "title": "Descuento en Tottus",
+        "discount": "20%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Masgluglu",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Take a Break",
+        "discount": "20%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Tottus",
+        "discount": "20%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Tottus",
+        "discount": "20%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en Housebar",
+        "discount": "30%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Viña VIK",
+        "discount": "20%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Viña Mar",
+        "discount": "45%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Viña Emiliana",
+        "discount": "20%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Viña Sutil",
+        "discount": "40%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Turbus",
+        "discount": "25%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Cabify",
+        "discount": "30%",
+        "extra": "Lu-Ma-Mi"
+      },
+      {
+        "title": "Descuento en Shepherd",
+        "discount": "30%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en McParking",
+        "discount": "30%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Estacionamiento Aeropuerto",
+        "discount": "30%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en estacionamiento OkParking",
+        "discount": "25%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Cabify",
+        "discount": "30%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Cabify",
+        "discount": "50%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Parkup",
+        "discount": "30%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Whoosh RM",
+        "discount": "25%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Whoosh",
+        "discount": "25%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Petsmann",
+        "discount": "20%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Dr. Pet",
+        "discount": "20%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en Superzoo",
+        "discount": "20%",
+        "extra": "Viernes"
+      },
+      {
+        "title": "Descuento en Petvet",
+        "discount": "20%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en South Bites",
+        "discount": "20%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Bienestar Animal",
+        "discount": "20%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Farmacias Ahumada",
+        "discount": "25%",
+        "extra": "Sá-Do-Lu"
+      },
+      {
+        "title": "Descuento en Palumbo",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Beauty Plus",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Belenus",
+        "discount": "45%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Clínica Santa Blanca",
+        "discount": "20%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "+15% adicional en Clínica Dental Everest",
+        "discount": "60%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Clínica You",
+        "discount": "20%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Invisalign",
+        "discount": "20%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Club Ratón Pérez",
+        "discount": "$34.500",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Integramédica",
+        "discount": "60%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Beneficio en Red Salud UC Christus",
+        "discount": "12 CUOTAS",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Inmunomédica",
+        "discount": "20%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Eva Spa",
+        "discount": "50%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en Hands & Company",
+        "discount": "30%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en Clínica Cela",
+        "discount": "20%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Miguel Bosé en Chile",
+        "discount": "20.000",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Canje Ricardo Arjona",
+        "discount": "26.000",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Cinemark",
+        "discount": "$3.300",
+        "extra": "Lu-Ma-Mi"
+      },
+      {
+        "title": "Descuento en Cinemark",
+        "discount": "30%",
+        "extra": "Lu-Ma-Mi"
+      },
+      {
+        "title": "Descuento en Jumpin",
+        "discount": "30%",
+        "extra": "Lunes y Martes"
+      },
+      {
+        "title": "Descuento en Arena XP",
+        "discount": "40%",
+        "extra": "Martes"
+      },
+      {
+        "title": "Descuento en Chuck E. Cheese",
+        "discount": "40%",
+        "extra": "Miércoles"
+      },
+      {
+        "title": "Descuento en Family Park",
+        "discount": "40%",
+        "extra": "Jueves"
+      },
+      {
+        "title": "Descuento en Descorcha",
+        "discount": "40%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Parque Aventura",
+        "discount": "20%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Happyland",
+        "discount": "GRATIS",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en El Extraordinario Circo",
+        "discount": "30%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en CLUB DEPORTIVO USS",
+        "discount": "30%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Zapping",
+        "discount": "20%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "En entradas",
+        "discount": "40%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Acumula hasta 3X CMR Puntos en Shell",
+        "discount": "",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Lipigas",
+        "discount": "$7.000",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Diario Financiero Digital",
+        "discount": "60%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Diario Financiero",
+        "discount": "20%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "en la instalación + 12 meses",
+        "discount": "",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Mi Bodega",
+        "discount": "30%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Carvuk",
+        "discount": "40%",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Beneficio en Hyla",
+        "discount": "18 CUOTAS",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Cuotas sin Interés en KTM",
+        "discount": "CUOTAS",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Cuotas sin Interés en Thermomix",
+        "discount": "36 CUOTAS",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Rappi",
+        "discount": "1 MES",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Beneficio en Falabella.com",
+        "discount": "10 CUOTAS",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Descuento en Tottus.cl",
+        "discount": "$10.000",
+        "extra": "Todos los días"
+      }
+    ]
+  }
+]
