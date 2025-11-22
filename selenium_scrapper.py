@@ -20,6 +20,7 @@ class BankParser:
     selector_title: Optional[str] = None
     selector_discount: Optional[str] = None
     selector_extra: Optional[str] = None
+    bank_url: Optional[str] = None
 
     def __init__(self):
         pass
@@ -64,6 +65,16 @@ class BankChileParser(BankParser):
     selector_title = ".font-700.text-3.text-gray-dark.mb-2.overflow-ellipsis"
     selector_discount = ".font-700.text-3.text-primary.mb-2.overflow-ellipsis"
     selector_extra = ".overflow-ellipsis.mb-2.text-2.text-gray"
+    bank_url = "https://sitiospublicos.bancochile.cl/personas/beneficios/beneficios-del-dia"
+
+
+class BankFalabellaParser(BankParser):
+    bank_id = "banco_002"
+    bank_name = "Banco Falabella"
+    selector_title = ".NewCardBenefits_title__fpDao"
+    selector_discount = ".NewCardBenefits_text-uppercase__DRpVQ"
+    selector_extra = ".NewCardBenefits_days__XZpWE"
+    bank_url = "https://www.bancofalabella.cl/descuentos/todos"
 
 
 def extract_weekdays(text: str) -> List[str]:
@@ -117,14 +128,36 @@ def scrape_with_parser(parser: BankParser, headless: bool = False) -> Dict:
 
     driver = Chrome(service=service, options=options)
 
-    # Si el parser es Banco de Chile abrimos la url conocida, otras clases pueden definir otra url
-    if isinstance(parser, BankChileParser):
-        url = "https://sitiospublicos.bancochile.cl/personas/beneficios/beneficios-del-dia"
+    # Si el parser tiene una URL definida, la usamos; de lo contrario, usamos about:blank
+    if parser.bank_url:
+        url = parser.bank_url
     else:
         url = "about:blank"
 
     driver.get(url)
-    time.sleep(4)
+    # esperar un poco a que la página comience a cargarse
+    time.sleep(2)
+
+    # scroll hasta abajo para forzar carga dinámica (infinite scroll / lazy load)
+    def scroll_to_bottom(drv, pause: float = 1.0, max_scrolls: int = 30):
+        try:
+            last_height = drv.execute_script("return document.body.scrollHeight")
+        except Exception:
+            return
+        for _ in range(max_scrolls):
+            drv.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(pause)
+            try:
+                new_height = drv.execute_script("return document.body.scrollHeight")
+            except Exception:
+                break
+            if new_height == last_height:
+                break
+            last_height = new_height
+
+    scroll_to_bottom(driver)
+    # un pequeño retraso final para estabilizar contenidos
+    time.sleep(1)
 
     # recolectar textos usando los selectores del parser (si existen)
     def _get_texts(selector: Optional[str]):
@@ -154,12 +187,13 @@ def scrape_with_parser(parser: BankParser, headless: bool = False) -> Dict:
 def main():
     parser_map = {
         "banco_de_chile": BankChileParser,
+        "banco_falabella": BankFalabellaParser,
         # aquí puede agregarse más bancos, por ejemplo: 'banco_x': BancoXParser
     }
 
     ap = argparse.ArgumentParser(
         description="Scrapper de beneficios con parsers por banco")
-    ap.add_argument("--bank", default="banco_de_chile",
+    ap.add_argument("--bank", default="banco_falabella",
                     help="Identificador del banco (parser)")
     ap.add_argument("--headless", action="store_true",
                     help="Ejecutar Chrome en headless")
