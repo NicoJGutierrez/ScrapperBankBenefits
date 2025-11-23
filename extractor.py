@@ -35,12 +35,25 @@ def extract_weekdays(text: str) -> List[str]:
     if re.search(r"\btodos(?: los)? dias?\b", norm):
         return [d.capitalize() for d in days_order]
 
-    # detectar rangos: "lunes a viernes", "martes al sabado", "lunes - viernes"
+    # Para permitir "sabado(s)" y "domingo(s)" construimos patrones
+    # que acepten una 's' final en esos días. Esto permite "sabado" y
+    # "sabados" (y lo mismo para domingo).
+    day_regex_parts = []
+    for d in days_order:
+        if d in ("sabado", "domingo"):
+            day_regex_parts.append(d + r"s?")
+        else:
+            day_regex_parts.append(d)
+
+    # detectar rangos: "lunes a viernes", "martes al sabado(s)", "lunes - viernes"
     range_pattern = re.compile(
-        r"\b(" + "|".join(days_order) + r")\s*(?:a|al|[-–—])\s*(" + "|".join(days_order) + r")\b")
+        r"\b(" + "|".join(day_regex_parts) + r")\s*(?:a|al|[-–—])\s*(" + "|".join(day_regex_parts) + r")\b")
     for m in range_pattern.finditer(norm):
-        start = m.group(1)
-        end = m.group(2)
+        # normalizar grupos removiendo una posible 's' final
+        start = m.group(1).rstrip("s")
+        end = m.group(2).rstrip("s")
+        if start not in days_order or end not in days_order:
+            continue
         i = days_order.index(start)
         j = days_order.index(end)
         k = i
@@ -54,7 +67,12 @@ def extract_weekdays(text: str) -> List[str]:
 
     # detectar días sueltos que no estén ya en added
     for d in days_order:
-        if re.search(r"\b" + re.escape(d) + r"\b", norm) and d not in added:
+        # permitir plural para sabado/domingo
+        if d in ("sabado", "domingo"):
+            pat = r"\b" + re.escape(d) + r"s?\b"
+        else:
+            pat = r"\b" + re.escape(d) + r"\b"
+        if re.search(pat, norm) and d not in added:
             added.append(d)
 
     return [d.capitalize() for d in added]
