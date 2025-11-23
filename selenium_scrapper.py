@@ -69,6 +69,16 @@ class BankSantanderParser(BankParser):
     nextpage = ".text-primary-santander.str-chevron-right.f-20"
 
 
+class ScotiaBankParser(BankParser):
+    bank_id = "banco_004"
+    bank_name = "Scotiabank"
+    selector_title = ".subtitle-1.pb-2.scotia-black-tint"
+    selector_discount = ".headline-small.pb-48"
+    selector_extra = ".subtitle-2.ml-3"
+    bank_url = "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/descuentos"
+    scroller = False
+
+
 def scrape_with_parser(parser: BankParser, headless: bool = False) -> Tuple[str, List[Dict[str, str]]]:
     service = Service(ChromeDriverManager().install())
     options = webdriver.ChromeOptions()
@@ -201,7 +211,7 @@ def scrape_with_parser(parser: BankParser, headless: bool = False) -> Tuple[str,
 
 def main():
     parser_map = {
-        "banco_santander": BankSantanderParser
+        "scotiabank": ScotiaBankParser
     }
 
     ap = argparse.ArgumentParser(

@@ -1,0 +1,537 @@
+[
+  {
+    "id": "banco_004",
+    "items": [
+      {
+        "title": "SOAP 2025",
+        "discount": "Precio Preferencial Clientes",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Copec",
+        "discount": "Hasta $100 Dcto.",
+        "extra": "Todos los miércoles"
+      },
+      {
+        "title": "Cruz Verde",
+        "discount": "25% Dcto.",
+        "extra": "Todos los lunes y jueves"
+      },
+      {
+        "title": "Viajes Scotia",
+        "discount": "Doble acumulación",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Marketplace Scotiabank",
+        "discount": "Hasta 50% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "PedidosYa",
+        "discount": "30% Dcto.",
+        "extra": "Todos los miércoles"
+      },
+      {
+        "title": "Rubro Educación",
+        "discount": "Acumulación extra",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Rubro Automotriz",
+        "discount": "Acumulación extra",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Scotia Impulsando la Música",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "EatTouch",
+        "discount": "Hasta un 50% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "easycancha",
+        "discount": "Membresía PRIME anual gratuita",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "KidZania",
+        "discount": "Hasta 40% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Teatro Zoco",
+        "discount": "35% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Hotel Malalcahuello",
+        "discount": "Hasta un 30% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Termas de Cochamó",
+        "discount": "15% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Leder",
+        "discount": "15% Dcto. adicional",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Zig Zag",
+        "discount": "30% Dcto. adicional",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Happyland",
+        "discount": "Carga $25.000 y lleva 20 juegos gratis",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "The Coffee",
+        "discount": "Hasta 40% Dcto.",
+        "extra": "Todos los jueves"
+      },
+      {
+        "title": "Transvip",
+        "discount": "30% Dcto.",
+        "extra": "Jueves y viernes"
+      },
+      {
+        "title": "Jumbo compras",
+        "discount": "20% devolución",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "OK Parking Express",
+        "discount": "Hasta 50% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Viajes Scotia",
+        "discount": "Hasta 30% Dcto. según tu Nivel",
+        "extra": "Todos los martes"
+      },
+      {
+        "title": "Maison-Niche",
+        "discount": "15% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Green Glass",
+        "discount": "15% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Viña VIK",
+        "discount": "30% Dcto.",
+        "extra": "Todos los lunes"
+      },
+      {
+        "title": "Santa Rita",
+        "discount": "Hasta 40% Dcto.",
+        "extra": "Todos los martes"
+      },
+      {
+        "title": "Viña Undurraga",
+        "discount": "45% Dcto.",
+        "extra": "Todos los viernes"
+      },
+      {
+        "title": "Calyptra",
+        "discount": "35% Dcto.",
+        "extra": "Todos los domingos"
+      },
+      {
+        "title": "Hellowine",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Inferno Burger",
+        "discount": "20% Dcto.",
+        "extra": "De lunes a miércoles"
+      },
+      {
+        "title": "Malévolo Pizza",
+        "discount": "20% Dcto.",
+        "extra": "De lunes a miércoles"
+      },
+      {
+        "title": "Mr. Smashed",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Mr. Wrap",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Pádel Sanhattan",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Pádel Maitencillo",
+        "discount": "15% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Pádel Shop Chile",
+        "discount": "15% Dcto.",
+        "extra": "Todos los dias"
+      },
+      {
+        "title": "Gasco",
+        "discount": "40% Dcto.",
+        "extra": "Todos los viernes"
+      },
+      {
+        "title": "Surface",
+        "discount": "15% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Warmtec",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Panorama Lumon",
+        "discount": "10% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Insanity Bikes",
+        "discount": "Hasta 30% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Smart Cargo",
+        "discount": "Hasta 15% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "MC Parking Aeropuerto Santiago",
+        "discount": "30% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Estacionamiento Aeropuerto",
+        "discount": "30% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Wyndham Antofagasta Pettra",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Hotel VIK Chile",
+        "discount": "Tarifa Preferencial",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Wyndham Concepción Pettra",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Cuarzo Lodge",
+        "discount": "Tarifa Preferencial",
+        "extra": "De domingo a jueves"
+      },
+      {
+        "title": "Noi Puma Lodge",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Noi Casa Atacama",
+        "discount": "25% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Mercado Carozzi",
+        "discount": "Desde 20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Noi Colchagua",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Noi Indigo Patagonia",
+        "discount": "25% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Geofoods",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Noi Vitacura",
+        "discount": "25% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Hotel Nayara Atacama",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Hotel Bella Vista",
+        "discount": "15% Dcto.",
+        "extra": "Todos lo días"
+      },
+      {
+        "title": "Wyndham Santiago Pettra",
+        "discount": "Hasta 30% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "El Ruco Surf Shop",
+        "discount": "Hasta 20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Hotel Nayara Hangaroa",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Clínica Maat",
+        "discount": "Hasta 30% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Interclínica",
+        "discount": "Hasta 30% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Carnes Premium",
+        "discount": "Hasta 20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Unity Fit Center",
+        "discount": "Hasta 40% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Transvip",
+        "discount": "15% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Mons",
+        "discount": "15% Dcto. adicional",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Sopena",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Zero Water",
+        "discount": "Primeros dos meses gratis",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Mollendo",
+        "discount": "20% Dcto.",
+        "extra": "Todos los sábados"
+      },
+      {
+        "title": "Kinexpert",
+        "discount": "Hasta 20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "La Boutique Dental",
+        "discount": "Hasta 50% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "AC Odontología",
+        "discount": "50% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Tierra de Frutos",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Coderhouse",
+        "discount": "20% Dcto. adicional",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Lerni",
+        "discount": "35% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Importclick",
+        "discount": "30% Dcto. adicional",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Atesorame",
+        "discount": "20% Dcto.",
+        "extra": "Todos los jueves"
+      },
+      {
+        "title": "Volka Chokolade",
+        "discount": "20% Dcto.",
+        "extra": "Todos los martes"
+      },
+      {
+        "title": "Pompeyo Carrasco",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Vigfor",
+        "discount": "Hasta 25% Dcto.",
+        "extra": "Todos los viernes"
+      },
+      {
+        "title": "Invermoto",
+        "discount": "Hasta 30% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Top Car Wash",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Caleta Bay",
+        "discount": "20% Dcto.",
+        "extra": "Todos los viernes"
+      },
+      {
+        "title": "Fundación Julieta",
+        "discount": "Hasta 20% Dcto.",
+        "extra": "De lunes a viernes"
+      },
+      {
+        "title": "Felicia Pet",
+        "discount": "15% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Integravet Ñuñoa",
+        "discount": "Hasta 40% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Zink Chile",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Hotel Gervasoni",
+        "discount": "25% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Dusa Fragances",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "TUA",
+        "discount": "20% Dcto.",
+        "extra": "Todos los jueves"
+      },
+      {
+        "title": "Europcar",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Clínica El Mañío",
+        "discount": "30% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Clínica El Mañío",
+        "discount": "30% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Clínica El Mañío",
+        "discount": "30% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Clínica El Mañío",
+        "discount": "30% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Malcriado",
+        "discount": "30% Dcto.",
+        "extra": "Todos los miércoles"
+      },
+      {
+        "title": "Clínica Ortodoncia Chile",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Odontología Vitacura",
+        "discount": "Hasta un 85% Dcto.",
+        "extra": "De lunes a sábado"
+      },
+      {
+        "title": "Patagón Cueros",
+        "discount": "15% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Cliniestetique",
+        "discount": "30% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "The Break Barbershop & Studio",
+        "discount": "Hasta 30% Dcto.",
+        "extra": "lunes a sábado"
+      },
+      {
+        "title": "Hojarasca Dulcería",
+        "discount": "20% Dcto.",
+        "extra": "De lunes a miércoles"
+      },
+      {
+        "title": "Alma Salud",
+        "discount": "Hasta 45% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Clínica Nohe",
+        "discount": "30% Dcto.",
+        "extra": "Todos los días"
+      },
+      {
+        "title": "Hotel Las Majadas",
+        "discount": "20% Dcto.",
+        "extra": "Todos los días"
+      }
+    ]
+  }
+]
