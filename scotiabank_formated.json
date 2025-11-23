@@ -1,0 +1,1884 @@
+{
+  "id": "banco_004",
+  "name": "banco_004",
+  "benefits": [
+    {
+      "id": "ben_banco_004_001",
+      "company": "SOAP 2025",
+      "discount": "Precio Preferencial Clientes",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": ""
+    },
+    {
+      "id": "ben_banco_004_002",
+      "company": "Copec",
+      "discount": "Hasta $100 Dcto.",
+      "category": "",
+      "description": "Todos los miércoles",
+      "valid_until": "",
+      "valid_days": [
+        "Miercoles"
+      ],
+      "requirements": "",
+      "parsed_discount": "100"
+    },
+    {
+      "id": "ben_banco_004_003",
+      "company": "Cruz Verde",
+      "discount": "25% Dcto.",
+      "category": "",
+      "description": "Todos los lunes y jueves",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Jueves"
+      ],
+      "requirements": "",
+      "parsed_discount": "25%"
+    },
+    {
+      "id": "ben_banco_004_004",
+      "company": "Viajes Scotia",
+      "discount": "Doble acumulación",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": ""
+    },
+    {
+      "id": "ben_banco_004_005",
+      "company": "Marketplace Scotiabank",
+      "discount": "Hasta 50% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "50%"
+    },
+    {
+      "id": "ben_banco_004_006",
+      "company": "PedidosYa",
+      "discount": "30% Dcto.",
+      "category": "",
+      "description": "Todos los miércoles",
+      "valid_until": "",
+      "valid_days": [
+        "Miercoles"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_007",
+      "company": "Rubro Educación",
+      "discount": "Acumulación extra",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": ""
+    },
+    {
+      "id": "ben_banco_004_008",
+      "company": "Rubro Automotriz",
+      "discount": "Acumulación extra",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": ""
+    },
+    {
+      "id": "ben_banco_004_009",
+      "company": "Scotia Impulsando la Música",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_010",
+      "company": "EatTouch",
+      "discount": "Hasta un 50% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "50%"
+    },
+    {
+      "id": "ben_banco_004_011",
+      "company": "easycancha",
+      "discount": "Membresía PRIME anual gratuita",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": ""
+    },
+    {
+      "id": "ben_banco_004_012",
+      "company": "KidZania",
+      "discount": "Hasta 40% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "40%"
+    },
+    {
+      "id": "ben_banco_004_013",
+      "company": "Teatro Zoco",
+      "discount": "35% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "35%"
+    },
+    {
+      "id": "ben_banco_004_014",
+      "company": "Hotel Malalcahuello",
+      "discount": "Hasta un 30% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_015",
+      "company": "Termas de Cochamó",
+      "discount": "15% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "15%"
+    },
+    {
+      "id": "ben_banco_004_016",
+      "company": "Leder",
+      "discount": "15% Dcto. adicional",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "15%"
+    },
+    {
+      "id": "ben_banco_004_017",
+      "company": "Zig Zag",
+      "discount": "30% Dcto. adicional",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_018",
+      "company": "Happyland",
+      "discount": "Carga $25.000 y lleva 20 juegos gratis",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "25000"
+    },
+    {
+      "id": "ben_banco_004_019",
+      "company": "The Coffee",
+      "discount": "Hasta 40% Dcto.",
+      "category": "",
+      "description": "Todos los jueves",
+      "valid_until": "",
+      "valid_days": [
+        "Jueves"
+      ],
+      "requirements": "",
+      "parsed_discount": "40%"
+    },
+    {
+      "id": "ben_banco_004_020",
+      "company": "Transvip",
+      "discount": "30% Dcto.",
+      "category": "",
+      "description": "Jueves y viernes",
+      "valid_until": "",
+      "valid_days": [
+        "Jueves",
+        "Viernes"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_021",
+      "company": "Jumbo compras",
+      "discount": "20% devolución",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_022",
+      "company": "OK Parking Express",
+      "discount": "Hasta 50% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "50%"
+    },
+    {
+      "id": "ben_banco_004_023",
+      "company": "Viajes Scotia",
+      "discount": "Hasta 30% Dcto. según tu Nivel",
+      "category": "",
+      "description": "Todos los martes",
+      "valid_until": "",
+      "valid_days": [
+        "Martes"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_024",
+      "company": "Maison-Niche",
+      "discount": "15% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "15%"
+    },
+    {
+      "id": "ben_banco_004_025",
+      "company": "Green Glass",
+      "discount": "15% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "15%"
+    },
+    {
+      "id": "ben_banco_004_026",
+      "company": "Viña VIK",
+      "discount": "30% Dcto.",
+      "category": "",
+      "description": "Todos los lunes",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_027",
+      "company": "Santa Rita",
+      "discount": "Hasta 40% Dcto.",
+      "category": "",
+      "description": "Todos los martes",
+      "valid_until": "",
+      "valid_days": [
+        "Martes"
+      ],
+      "requirements": "",
+      "parsed_discount": "40%"
+    },
+    {
+      "id": "ben_banco_004_028",
+      "company": "Viña Undurraga",
+      "discount": "45% Dcto.",
+      "category": "",
+      "description": "Todos los viernes",
+      "valid_until": "",
+      "valid_days": [
+        "Viernes"
+      ],
+      "requirements": "",
+      "parsed_discount": "45%"
+    },
+    {
+      "id": "ben_banco_004_029",
+      "company": "Calyptra",
+      "discount": "35% Dcto.",
+      "category": "",
+      "description": "Todos los domingos",
+      "valid_until": "",
+      "valid_days": [],
+      "requirements": "",
+      "parsed_discount": "35%"
+    },
+    {
+      "id": "ben_banco_004_030",
+      "company": "Hellowine",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_031",
+      "company": "Inferno Burger",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "De lunes a miércoles",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_032",
+      "company": "Malévolo Pizza",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "De lunes a miércoles",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_033",
+      "company": "Mr. Smashed",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_034",
+      "company": "Mr. Wrap",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_035",
+      "company": "Pádel Sanhattan",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_036",
+      "company": "Pádel Maitencillo",
+      "discount": "15% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "15%"
+    },
+    {
+      "id": "ben_banco_004_037",
+      "company": "Pádel Shop Chile",
+      "discount": "15% Dcto.",
+      "category": "",
+      "description": "Todos los dias",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "15%"
+    },
+    {
+      "id": "ben_banco_004_038",
+      "company": "Gasco",
+      "discount": "40% Dcto.",
+      "category": "",
+      "description": "Todos los viernes",
+      "valid_until": "",
+      "valid_days": [
+        "Viernes"
+      ],
+      "requirements": "",
+      "parsed_discount": "40%"
+    },
+    {
+      "id": "ben_banco_004_039",
+      "company": "Surface",
+      "discount": "15% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "15%"
+    },
+    {
+      "id": "ben_banco_004_040",
+      "company": "Warmtec",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_041",
+      "company": "Panorama Lumon",
+      "discount": "10% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "10%"
+    },
+    {
+      "id": "ben_banco_004_042",
+      "company": "Insanity Bikes",
+      "discount": "Hasta 30% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_043",
+      "company": "Smart Cargo",
+      "discount": "Hasta 15% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "15%"
+    },
+    {
+      "id": "ben_banco_004_044",
+      "company": "MC Parking Aeropuerto Santiago",
+      "discount": "30% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_045",
+      "company": "Estacionamiento Aeropuerto",
+      "discount": "30% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_046",
+      "company": "Wyndham Antofagasta Pettra",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_047",
+      "company": "Hotel VIK Chile",
+      "discount": "Tarifa Preferencial",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": ""
+    },
+    {
+      "id": "ben_banco_004_048",
+      "company": "Wyndham Concepción Pettra",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_049",
+      "company": "Cuarzo Lodge",
+      "discount": "Tarifa Preferencial",
+      "category": "",
+      "description": "De domingo a jueves",
+      "valid_until": "",
+      "valid_days": [
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves"
+      ],
+      "requirements": "",
+      "parsed_discount": ""
+    },
+    {
+      "id": "ben_banco_004_050",
+      "company": "Noi Puma Lodge",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_051",
+      "company": "Noi Casa Atacama",
+      "discount": "25% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "25%"
+    },
+    {
+      "id": "ben_banco_004_052",
+      "company": "Mercado Carozzi",
+      "discount": "Desde 20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_053",
+      "company": "Noi Colchagua",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_054",
+      "company": "Noi Indigo Patagonia",
+      "discount": "25% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "25%"
+    },
+    {
+      "id": "ben_banco_004_055",
+      "company": "Geofoods",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_056",
+      "company": "Noi Vitacura",
+      "discount": "25% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "25%"
+    },
+    {
+      "id": "ben_banco_004_057",
+      "company": "Hotel Nayara Atacama",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_058",
+      "company": "Hotel Bella Vista",
+      "discount": "15% Dcto.",
+      "category": "",
+      "description": "Todos lo días",
+      "valid_until": "",
+      "valid_days": [],
+      "requirements": "",
+      "parsed_discount": "15%"
+    },
+    {
+      "id": "ben_banco_004_059",
+      "company": "Wyndham Santiago Pettra",
+      "discount": "Hasta 30% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_060",
+      "company": "El Ruco Surf Shop",
+      "discount": "Hasta 20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_061",
+      "company": "Hotel Nayara Hangaroa",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_062",
+      "company": "Clínica Maat",
+      "discount": "Hasta 30% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_063",
+      "company": "Interclínica",
+      "discount": "Hasta 30% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_064",
+      "company": "Carnes Premium",
+      "discount": "Hasta 20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_065",
+      "company": "Unity Fit Center",
+      "discount": "Hasta 40% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "40%"
+    },
+    {
+      "id": "ben_banco_004_066",
+      "company": "Transvip",
+      "discount": "15% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "15%"
+    },
+    {
+      "id": "ben_banco_004_067",
+      "company": "Mons",
+      "discount": "15% Dcto. adicional",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "15%"
+    },
+    {
+      "id": "ben_banco_004_068",
+      "company": "Sopena",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_069",
+      "company": "Zero Water",
+      "discount": "Primeros dos meses gratis",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": ""
+    },
+    {
+      "id": "ben_banco_004_070",
+      "company": "Mollendo",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los sábados",
+      "valid_until": "",
+      "valid_days": [],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_071",
+      "company": "Kinexpert",
+      "discount": "Hasta 20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_072",
+      "company": "La Boutique Dental",
+      "discount": "Hasta 50% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "50%"
+    },
+    {
+      "id": "ben_banco_004_073",
+      "company": "AC Odontología",
+      "discount": "50% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "50%"
+    },
+    {
+      "id": "ben_banco_004_074",
+      "company": "Tierra de Frutos",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_075",
+      "company": "Coderhouse",
+      "discount": "20% Dcto. adicional",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_076",
+      "company": "Lerni",
+      "discount": "35% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "35%"
+    },
+    {
+      "id": "ben_banco_004_077",
+      "company": "Importclick",
+      "discount": "30% Dcto. adicional",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_078",
+      "company": "Atesorame",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los jueves",
+      "valid_until": "",
+      "valid_days": [
+        "Jueves"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_079",
+      "company": "Volka Chokolade",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los martes",
+      "valid_until": "",
+      "valid_days": [
+        "Martes"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_080",
+      "company": "Pompeyo Carrasco",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_081",
+      "company": "Vigfor",
+      "discount": "Hasta 25% Dcto.",
+      "category": "",
+      "description": "Todos los viernes",
+      "valid_until": "",
+      "valid_days": [
+        "Viernes"
+      ],
+      "requirements": "",
+      "parsed_discount": "25%"
+    },
+    {
+      "id": "ben_banco_004_082",
+      "company": "Invermoto",
+      "discount": "Hasta 30% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_083",
+      "company": "Top Car Wash",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_084",
+      "company": "Caleta Bay",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los viernes",
+      "valid_until": "",
+      "valid_days": [
+        "Viernes"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_085",
+      "company": "Fundación Julieta",
+      "discount": "Hasta 20% Dcto.",
+      "category": "",
+      "description": "De lunes a viernes",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_086",
+      "company": "Felicia Pet",
+      "discount": "15% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "15%"
+    },
+    {
+      "id": "ben_banco_004_087",
+      "company": "Integravet Ñuñoa",
+      "discount": "Hasta 40% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "40%"
+    },
+    {
+      "id": "ben_banco_004_088",
+      "company": "Zink Chile",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_089",
+      "company": "Hotel Gervasoni",
+      "discount": "25% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "25%"
+    },
+    {
+      "id": "ben_banco_004_090",
+      "company": "Dusa Fragances",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_091",
+      "company": "TUA",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los jueves",
+      "valid_until": "",
+      "valid_days": [
+        "Jueves"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_092",
+      "company": "Europcar",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_093",
+      "company": "Clínica El Mañío",
+      "discount": "30% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_094",
+      "company": "Clínica El Mañío",
+      "discount": "30% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_095",
+      "company": "Clínica El Mañío",
+      "discount": "30% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_096",
+      "company": "Clínica El Mañío",
+      "discount": "30% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_097",
+      "company": "Malcriado",
+      "discount": "30% Dcto.",
+      "category": "",
+      "description": "Todos los miércoles",
+      "valid_until": "",
+      "valid_days": [
+        "Miercoles"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_098",
+      "company": "Clínica Ortodoncia Chile",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_099",
+      "company": "Odontología Vitacura",
+      "discount": "Hasta un 85% Dcto.",
+      "category": "",
+      "description": "De lunes a sábado",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado"
+      ],
+      "requirements": "",
+      "parsed_discount": "85%"
+    },
+    {
+      "id": "ben_banco_004_100",
+      "company": "Patagón Cueros",
+      "discount": "15% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "15%"
+    },
+    {
+      "id": "ben_banco_004_101",
+      "company": "Cliniestetique",
+      "discount": "30% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_102",
+      "company": "The Break Barbershop & Studio",
+      "discount": "Hasta 30% Dcto.",
+      "category": "",
+      "description": "lunes a sábado",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_103",
+      "company": "Hojarasca Dulcería",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "De lunes a miércoles",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    },
+    {
+      "id": "ben_banco_004_104",
+      "company": "Alma Salud",
+      "discount": "Hasta 45% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "45%"
+    },
+    {
+      "id": "ben_banco_004_105",
+      "company": "Clínica Nohe",
+      "discount": "30% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "30%"
+    },
+    {
+      "id": "ben_banco_004_106",
+      "company": "Hotel Las Majadas",
+      "discount": "20% Dcto.",
+      "category": "",
+      "description": "Todos los días",
+      "valid_until": "",
+      "valid_days": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ],
+      "requirements": "",
+      "parsed_discount": "20%"
+    }
+  ]
+}
